@@ -1,1 +1,5 @@
-# test_flask_1_1
+# Charlie
+
+   - DELETE {"payload":"delete successfully"}
+   
+   - put"  {"payload":"put successfully"}
