@@ -16,13 +16,13 @@ def read():
 def create():
     return {"payload":"create successfully"} 
 
-#@app.route("/delete", methods = ["DELETE"])
-#def delete():
-#    return {"payload":"delete successfully"} 
+@app.route("/delete", methods = ["DELETE"])
+def delete():
+    return {"payload":"delete successfully"} 
 
-#@app.route("/put", methods = ["PUT"])
-#def put():
-#    return {"payload":"put successfully"} 
+@app.route("/put", methods = ["PUT"])
+def put():
+    return {"payload":"put successfully"} 
 
 if __name__ == "__main__":
     app.run(debug=True)
