@@ -1,5 +1,4 @@
 # feature/bravo
-# Bravo 
 
 - read successfully
 - create successfully
